@@ -19,6 +19,7 @@ app.use(cors())
 
 //DB connection
 connectDB();
+console.log(process.env.MONGO_URI);
 
 //API end point
 app.use("/api/food",foodRoute)
