@@ -5,7 +5,7 @@ import ExploreMenu from '../../components/exploreMenu/exploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownload/AppDownload'
 
-const home = () => {
+const Home = () => {
 
   const [category,setCategory] = useState("All");
 
@@ -19,4 +19,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
