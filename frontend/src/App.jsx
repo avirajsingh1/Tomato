@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// Fixed import path - deployment fix
+// Fixed import path - deployment fix - Updated: 2025-04-20
 import Navbar from './components/navbar/navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
