@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // Fixed import path - deployment fix - Updated: 2025-04-20
 import Navbar from './components/navbar/navbar'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home/Home'
+import Home from './pages/home/home'
 import Cart from './pages/Cart/cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
